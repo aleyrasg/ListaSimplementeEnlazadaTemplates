@@ -3,9 +3,13 @@
 
 #include <iostream>
 
+#include "Menu.h"
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    Menu men;
+    men.mostrarMenu();
+    return 0;
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
